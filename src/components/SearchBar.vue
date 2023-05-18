@@ -35,6 +35,7 @@ const search = () => {
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
+  
   .SearchBar__input {
     width: 50%;
     height: 2rem;
@@ -46,10 +47,15 @@ const search = () => {
       outline: none;
     }
   }
+  
   .SearchBar__icon {
     margin-left: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
+  }
+
+  .SearchBar__icon:hover {
+    color: #00AFEC;
   }
 }
 </style>
