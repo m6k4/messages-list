@@ -183,6 +183,7 @@ const openModal = (message) => {
     }
 
     th {
+      white-space: nowrap;
       background-color: #282b30;
       color: #fff;
       font-size: 16px;
