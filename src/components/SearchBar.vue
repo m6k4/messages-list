@@ -4,6 +4,7 @@
       class="SearchBar__input"
       type="text"
       placeholder="Search"
+      @keyup.enter="search"
       v-model="searchTerm"
     />
     <i
@@ -35,7 +36,7 @@ const search = () => {
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
-  
+
   .SearchBar__input {
     width: 50%;
     height: 2rem;

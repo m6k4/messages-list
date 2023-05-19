@@ -39,6 +39,8 @@ export default function useMessages() {
   const removeMessage = (id) => {
     const index = messages.value.findIndex(message => message.id === id);
     messages.value.splice(index, 1);
+    const initialIndex = initialMessages.value.findIndex(message => message.id === id);
+    initialMessages.value.splice(initialIndex, 1);
   };
 
   const searchMessages = (searchValue) => {
