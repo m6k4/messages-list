@@ -12,7 +12,7 @@ export default function useMessages() {
   };
 
   const prepareMessageArray = () => {
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 1000; i++) {
       if(i%2 === 0) {
         messages.value.push({
           id: i,
